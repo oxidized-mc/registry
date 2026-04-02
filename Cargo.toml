@@ -12,9 +12,17 @@ keywords     = ["minecraft", "oxidized-mc"]
 categories   = ["game-development"]
 
 [dependencies]
+thiserror = "2"
+bitflags  = "2"
+
+[build-dependencies]
+serde_json = { version = "1", features = ["preserve_order"] }
+serde      = { version = "1", features = ["derive"] }
+flate2     = "1"
 
 [dev-dependencies]
 proptest = "1"
+insta    = "1"
 
 [lints.rust]
 missing_docs   = "warn"
