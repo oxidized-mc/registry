@@ -317,7 +317,7 @@ pub struct BlockStateEntry {
 bitflags! {
     /// Flags for a block state, derived from vanilla block property data.
     ///
-    /// Stored as `u16` per ADR-012 to accommodate current and future flags.
+    /// Stored as `u16` to accommodate current and future block-state flags.
     /// The extraction script (`tools/extract_block_properties.py`) produces the
     /// data that `build.rs` uses to set these flags at compile time.
     #[derive(Debug, Clone, Copy, PartialEq, Eq)]
