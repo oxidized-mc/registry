@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/oxidized-mc/registry/actions/workflows/ci.yml/badge.svg)](https://github.com/oxidized-mc/registry/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Crates.io](https://img.shields.io/crates/v/oxidized-registry.svg)](https://crates.io/crates/oxidized-registry)
 
 Block, item, and biome registries with O(1) state ID lookup and generated data
 
